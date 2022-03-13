@@ -2,7 +2,7 @@ import { createClient} from 'contentful'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Link from 'next/Link'
+import Link from 'next/link'
 import Posty from '../components/Posty'
 
 export async function getStaticProps(){

@@ -1,4 +1,4 @@
-import Link from 'next/Link'
+import Link from 'next/link'
 import styles from '../../styles/List.module.css'
 export const getStaticProps=async()=>{
     const res = await fetch("https://jsonplaceholder.typicode.com/posts")
