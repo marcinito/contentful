@@ -40,7 +40,7 @@ const {title,slug,image,description}=dane.fields
   <>
         <h1>Tutaj beda wpisy</h1>
         <h2>{title}</h2>
-        <Image src={`http:${image.fields.file.url}`} width="200" height="200"></Image>
+        <Image src={`http:${image.fields.file.url}`} width="200" height="200" alt="dwa"></Image>
 <div>
 {documentToReactComponents(description)}
 </div>

@@ -46,7 +46,7 @@ const Detail = (props) => {
             return(
                 <>
                 <p>{el.fields.title}</p>
-                <Image src={`https:${el.fields.image.fields.file.url}`} width="200" height="200"></Image>
+                <Image src={`https:${el.fields.image.fields.file.url}`} width="200" height="200" alt="dwa"></Image>
                 </>
             )
         })}

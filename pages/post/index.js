@@ -16,9 +16,9 @@ const Post = ({data}) => {
         <div>
 {data.map(el=>{
     return(
-        <div>
-            <Link key={el.id} href={`/post/${el.id}`}><a>{el.name}</a></Link>
-        </div>
+       
+            <Link key={el.phone} href={`/post/${el.id}`}><a>{el.name}</a></Link>
+      
     )
 })}
         </div>

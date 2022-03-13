@@ -4,7 +4,7 @@ const BlogPost = (props) => {
     return ( <div>
 {props.dwa.map(el=>{
     return(
-    <Link href={`/blog/${el.fields.slug}`}><a>{el.fields.title}</a></Link>
+    <Link  key={el.sys.id} href={`/blog/${el.fields.slug}`}><a>{el.fields.title}</a></Link>
     )
 })}
     </div> );
