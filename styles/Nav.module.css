@@ -1,0 +1,42 @@
+.navbar{
+    width:100%;
+    border-bottom: 3px solid black;
+    background-color: gray;
+    height:15%;
+    display:flex;
+
+    /* overflow: hidden; */
+    
+}
+.logoImg{
+ 
+    width:60%;
+    height:100%;
+}
+.ulNav{
+    align-self: flex-end;
+    display:flex;
+   
+    width:40%;
+    justify-content: flex-end;
+    list-style-type:none;
+    font-weight: bold;
+    font-size:1.5;
+    margin-right: 5%;
+    height:100%;
+    align-items: center;
+ position: relative;
+
+}
+.liNav{
+   
+    height:fit-content;
+    font-size: 2rem;
+    margin:2%;
+   
+}
+.logoZdj{
+    position:relative;
+    width:10%;
+    height:90%;
+}
